@@ -1,9 +1,10 @@
+import React from 'react';
 import {NavLink} from 'react-router-dom'
 
 export default function Navbar(){
   return (
     <div>
-      <div className='flex justify-center items-center fixed bottom-0 w-screen h-[10%] border-t md:h-screen md:w-[10%] md:border-r border-slate-300'>
+      <div className='bg-white flex justify-center items-center fixed bottom-0 w-full h-[10%] border-t md:h-screen md:w-[10%] md:border-r border-slate-300 overflow-hidden z-50'>
         <div >
           <ul className='flex flex-row md:flex-col gap-6'>
             <li className='w-5'>
