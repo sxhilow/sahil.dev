@@ -4,6 +4,7 @@ import nikelp from './nikelp.jpeg'
 import onepiece from './onepiece.jpeg'
 import richfield from './richfield.png'
 import school from './school.png'
+import do4you from './do4you.png'
 
 export{
   profile,
@@ -11,5 +12,6 @@ export{
   nikelp,
   onepiece,
   richfield,
-  school
+  school,
+  do4you
 }

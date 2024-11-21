@@ -5,6 +5,7 @@ import { projects } from "../constants";
 import QuoteCard from "../components/QuoteCard";
 import ThanksCrad from "../components/ThanksCrad";
 import FavouriteFiction from "../components/FavouriteFiction";
+import LanguagesCard from "../components/LanguagesCard";
 
 export default function Home(){
   return(
@@ -90,7 +91,7 @@ export default function Home(){
       </div>
       <div className="md:w-[30%] md:h-screen md:mt-[8%] md:mr-3">
         <aside >
-          <div className="md:mt-[20%]">
+          <div className="md:mt-[15%]">
             <QuoteCard />
           </div>
           <div className="md:mt-[5%] mt-4">
@@ -98,6 +99,9 @@ export default function Home(){
           </div>
           <div className="md:mt-[5%] mt-4">
             <FavouriteFiction />
+          </div>
+          <div className="mt-[-20px]">
+            <LanguagesCard/>
           </div>
         </aside>
       </div>
