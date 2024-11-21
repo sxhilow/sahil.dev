@@ -4,11 +4,26 @@ import './index.css'
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom'
 import Layout from './Layout.jsx'
 import Home from './sections/Home.jsx'
+import Projects from './sections/Projects.jsx'
+import Resume from './sections/Resume.jsx'
+import { quote } from './components/QuoteCard.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
-      <Route path='/' element={<Home/>}/>
+      <Route 
+       path='/' 
+       element={<Home/>}
+       loader={quote}
+      />
+      <Route 
+       path='/projects' 
+       element={<Projects/>}
+      />
+      <Route
+      path='/resume'
+      element={<Resume/>}
+      />
     </Route>
   )
 )

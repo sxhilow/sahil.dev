@@ -1,23 +1,25 @@
-import { useEffect, useState } from "react"
+import { useLoaderData } from "react-router-dom"
 
-const Quote = () => {    
+const QuoteCard = () => { 
+   const data = useLoaderData();
+    /*
     const [data, setData] = useState([])
     useEffect(() => {
-        fetch("https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/today")
+        fetch()
             .then((res) => res.json())
-            .then((data) => setData(data[0]))
+            .then((data) => setData(data));
     }, [setData]);
-
+   */
     
     return (
-        <div className=" mx-7 rounded-lg shadow-xl border border-gray-300 hover:rotate-2 transition flex-wrap overflow-auto p-1.5">
-            <h1 className="font-poppins m-2 font-semibold">Today's Quote</h1>
+        <div className=" mx-7 rounded-lg border border-gray-300 rotate-1 flex-wrap overflow-auto p-1.5">
+            <h1 className="font-poppins m-2 font-semibold">Quote of the Moment</h1>
 
             <hr className="w-[90%] mx-auto"/>
 
-            <p className="font-poppins font-light m-2 ">"{data.q}"</p>
+            <p className="font-poppins font-light m-2 ">"{data.quote}"</p>
             
-            <footer className="font-poppins m-2 font-light">~{data.a}</footer>
+            <footer className="font-poppins m-2 font-light">~{data.author}</footer>
             
             
 
@@ -25,4 +27,10 @@ const Quote = () => {
     )
 }
 
-export default Quote
+export default QuoteCard
+
+export const quote = async () => {
+    const response = await fetch("https://programming-quotesapi.vercel.app/api/random")
+
+    return response.json();
+}

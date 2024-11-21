@@ -2,11 +2,13 @@ import React from "react";
 import {profile} from "../assets/images";
 import ProjectsCard from "../components/ProjectsCard";
 import { projects } from "../constants";
-import Quote from "../components/QuoteCard";
+import QuoteCard from "../components/QuoteCard";
+import ThanksCrad from "../components/ThanksCrad";
+import FavouriteFiction from "../components/FavouriteFiction";
 
 export default function Home(){
   return(
-    <div className="w-screen mb-[15%] md:mb-0 mt-5 md:ml-[10%] h-[90%] md:w-[90%] md:h-screen md:flex">
+    <section className="w-screen mb-[20%] md:mb-0 mt-5 md:ml-[10%] h-[90%] md:w-[90%] md:h-screen md:flex">
       <div className="md:w-[70%] md:h-screen">
         <div className="m-1 md:m-5">
           <div className=" flex justify-center items-center flex-col md:flex-row ">
@@ -86,12 +88,20 @@ export default function Home(){
           
         </div>        
       </div>
-      <div className="md:w-[30%] md:h-screen">
-        <aside className="md:mt-[20%]">
-          <Quote />
+      <div className="md:w-[30%] md:h-screen md:mt-[8%] md:mr-3">
+        <aside >
+          <div className="md:mt-[20%]">
+            <QuoteCard />
+          </div>
+          <div className="md:mt-[5%] mt-4">
+            <ThanksCrad/>
+          </div>
+          <div className="md:mt-[5%] mt-4">
+            <FavouriteFiction />
+          </div>
         </aside>
       </div>
-    </div>
+    </section>
     
   )
 }
