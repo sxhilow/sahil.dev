@@ -91,13 +91,13 @@ const Resume = () => {
         </div>
         <div className="md:w-[35%] md:h-full md:mt-[4%] md:mr-3">
         <aside >
-            <div className='m-8'>
+            <div className='my-8'>
                 <SkillsCard/>
             </div> 
-            <div className='m-8'>
+            <div className='my-8'>
                 <ToolsCrad/>
             </div>
-            <div className='m-8'>
+            <div className='my-8'>
                 <LanguagesCard/>
             </div>
         </aside>
