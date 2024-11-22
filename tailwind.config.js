@@ -25,7 +25,7 @@ export default {
       {
         mydarktheme: {
           // Only modify the background color for dark mode
-          "base-100": "#1E293B", // Dark background color
+          "base-100": "#0f172a", // Dark background color
         },
       },
     ],

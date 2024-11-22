@@ -6,7 +6,7 @@ import { projects } from '../constants'
 
 const Projects = () => {
   return (
-    <section className="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-200 w-full pb-[15%] md:pb-0 md:ml-[10%] min-h-screen md:w-[90%] md:h-full md:flex">
+    <section className="bg-white dark:bg-base-100 text-slate-900 dark:text-slate-200 w-full pb-[15%] md:pb-0 md:ml-[10%] min-h-screen md:w-[90%] md:h-full md:flex">
         <div className="md:w-[70%] md:h-full ">
             <div className="p-6">
                 <h2 className="text-4xl font-poppins font-semibold my-8 mx-4">Projects I've Worked On</h2>
