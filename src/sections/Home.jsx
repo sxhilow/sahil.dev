@@ -89,20 +89,20 @@ export default function Home(){
           
         </div>        
       </div>
-      <div className="md:w-[30%] md:h-full md:mt-[5%] md:mr-3">
+      <div className="md:w-[30%] md:h-full md:mt-[7%] md:mr-3">
         <aside >
-          <div className="m-8">
+          <div className="my-8">
             <QuoteCard />
           </div>
-          <div className="m-8">
+          <div className="my-8">
             <LanguagesCard/>
           </div>
           
-          <div className="m-8">
+          <div className="my-8">
             <FavouriteFiction />
           </div>
 
-          <div className="m-8">
+          <div className="my-8">
             <ThanksCrad/>
           </div>
           

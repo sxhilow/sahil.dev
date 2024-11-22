@@ -21,10 +21,10 @@ const Projects = () => {
         </div>
         <div className="md:w-[30%] md:h-full md:mt-[8%] md:mr-3">
         <aside >
-          <div className="md:mt-[5%] mt-4">
+          <div className="my-8">
             <ThanksCrad/>
           </div>
-          <div className="md:mt-[5%] mt-4">
+          <div className="my-8">
             <FavouriteFiction />
           </div>
         </aside>
