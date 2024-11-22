@@ -9,7 +9,7 @@ import LanguagesCard from "../components/LanguagesCard";
 
 export default function Home(){
   return(
-    <section className="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-200 w-full pb-[15%] md:pb-0 md:ml-[10%] min-h-full md:w-[90%] md:h-full md:flex mx-auto pt-3">
+    <section className="bg-white dark:bg-base-100 text-slate-900 dark:text-slate-200 w-full pb-[15%] md:pb-0 md:ml-[10%] min-h-full md:w-[90%] md:h-full md:flex mx-auto pt-3">
       <div className="md:w-[70%] md:h-full">
         <div className="p-1 md:m-5">
           <div className=" flex justify-center items-center flex-col md:flex-row ">

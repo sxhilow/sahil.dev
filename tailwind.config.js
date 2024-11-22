@@ -20,5 +20,16 @@ export default {
   plugins: [
     require('daisyui'),
   ],
+  daisyui: {
+    themes: [
+      {
+        mydarktheme: {
+          // Only modify the background color for dark mode
+          "base-100": "#1E293B", // Dark background color
+        },
+      },
+    ],
+    darkTheme: "mydarktheme", // Use this custom dark theme
+  },
 }
 
