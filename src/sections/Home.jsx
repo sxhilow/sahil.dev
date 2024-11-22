@@ -9,7 +9,7 @@ import LanguagesCard from "../components/LanguagesCard";
 
 export default function Home(){
   return(
-    <section className="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-200 w-full pb-[15%] md:pb-0 md:ml-[10%] min-h-screen md:w-[90%] md:h-full md:flex">
+    <section className="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-200 w-full pb-[15%] md:pb-0 md:ml-[10%] min-h-full md:w-[90%] md:h-full md:flex">
       <div className="md:w-[70%] md:h-full">
         <div className="p-1 md:m-5">
           <div className=" flex justify-center items-center flex-col md:flex-row ">
@@ -91,18 +91,18 @@ export default function Home(){
       </div>
       <div className="md:w-[30%] md:h-full md:mt-[5%] md:mr-3">
         <aside >
-          <div className="md:mt-[15%]">
+          <div className="m-8">
             <QuoteCard />
           </div>
-          <div className="md:mt-[5%] mt-4">
+          <div className="m-8">
             <LanguagesCard/>
           </div>
           
-          <div className="md:mt-[5%] mt-4">
+          <div className="m-8">
             <FavouriteFiction />
           </div>
 
-          <div className="md:mt-[5%] mt-4">
+          <div className="m-8">
             <ThanksCrad/>
           </div>
           
