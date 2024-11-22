@@ -5,6 +5,7 @@ export default {
       "./index.html",
       "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -13,8 +14,11 @@ export default {
       backgroundImage: {
         'onepiece-image': 'url("./src/assets/images/onepiece.jpeg")',
       },
+      
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
 

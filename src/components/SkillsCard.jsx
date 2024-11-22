@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillsCard = () => {
   return (
-    <div className=" mx-7 rounded-lg border border-gray-300 rotate-1 flex-wrap overflow-auto p-1.5">
+    <div className=" mx-7 rounded-lg border border-slate-100 dark:border-slate-800 dark:bg-gradient-to-br from-slate-800 to-slate-900 rotate-1 flex-wrap overflow-auto p-1.5">
         <h1 className="font-poppins m-2 font-semibold">Tech Stack</h1>
         <hr className="w-[90%] mx-auto"/>
         <div className='m-2'>

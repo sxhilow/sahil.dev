@@ -3,7 +3,7 @@ import sammyverse from './sammyverse.png'
 import nikelp from './nikelp.jpeg'
 import onepiece from './onepiece.jpeg'
 import richfield from './richfield.png'
-import school from './school.png'
+import school from './school.jpeg'
 import do4you from './do4you.png'
 
 export{

@@ -1,6 +1,6 @@
 const ProjectsCard = ({imgURL, title, description, link}) =>{
   return(
-    <div className="mt-2 mb-7 lg:mb-0 w-full rounded-lg shadow-lg border border-gray-300 hover:rotate-2 transition flex-wrap overflow-auto p-1.5">
+    <div className="mt-2 mb-7 lg:mb-0 w-full rounded-lg shadow-md border border-slate-100 dark:border-slate-800 dark:bg-gradient-to-br from-slate-800 to-slate-900 hover:rotate-2 transition flex-wrap overflow-auto p-1.5">
       <a href={link}>
       <div className="flex flex-row justify-center items-center m-4 rounded-full gap-6">
         <div>
