@@ -10,7 +10,7 @@ const FavouriteFiction = () => {
             <h1 className="font-poppins m-2 font-semibold text-slate-100">Favorite Piece of Fiction!</h1>
             <hr className="w-[90%] mx-auto" />
             <p className="font-poppins font-medium m-2 text-slate-100">
-                *One Piece* is my favorite piece of fiction. A boy who wants to become the King of Pirates...
+                *One Piece* is my favorite piece of fiction. It follows the story of A boy who wants to become the King of Pirates...
             </p>
 
         </div>
