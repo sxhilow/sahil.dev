@@ -15,7 +15,7 @@ export default function Navbar(){
   }
   
   return (
-    <div className='bg-white dark:bg-slate-900 fixed bottom-0 w-full h-[10%] border-t md:border-t-0 md:h-full md:w-[10%] md:border-r border-slate-300 overflow-hidden z-50'>
+    <div className='bg-white dark:bg-slate-900 fixed bottom-0 w-full h-[10%] border-t md:border-t-0 md:h-full md:w-[10%] md:border-r border-slate-300 dark:border-slate-800 overflow-hidden z-50'>
       <div className='flex flex-row md:flex-col h-[100%] md:w-[100%]'>
       <div className='absolute w-[20%] h-full md:w-full md:h-[20%] overflow-hidden z-50'>
         <div className='flex justify-center items-center h-full '>
