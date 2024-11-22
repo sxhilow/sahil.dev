@@ -12,7 +12,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
-        'onepiece-image': 'url("./src/assets/images/onepiece.jpeg")',
+        'onepiece-image': 'url("/assets/images/onepiece.jpeg")',
       },
       
     },

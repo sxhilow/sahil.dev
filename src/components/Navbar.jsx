@@ -54,8 +54,8 @@ export default function Navbar(){
       </div>
       <div className='relative flex justify-center items-center w-[100%] md:h-full '>
         
-          <ul className='flex flex-row md:flex-col gap-6'>
-            <li className='w-5'>
+          <ul className='flex flex-row md:flex-col gap-8'>
+            <li className='w-6'>
               <NavLink 
                   to='/' 
                   className={({isActive}) => `hover:text-teal-500 ${isActive ? "text-teal-500" : "text-slate-500"}`}
@@ -75,7 +75,7 @@ export default function Navbar(){
                   </svg>
                 </NavLink>
             </li>
-            <li className='w-5'>
+            <li className='w-6'>
               <NavLink to="/projects"
                 className={({isActive}) => `hover:text-teal-500 ${isActive ? "text-teal-500" : "text-slate-500"}`}>
                 <svg
@@ -101,7 +101,7 @@ export default function Navbar(){
               </NavLink>
             </li>
             
-            <li className='w-5'>
+            <li className='w-6'>
               <NavLink to="/resume"
                 className={({isActive}) => `hover:text-teal-500 ${isActive ? "text-teal-500" : "text-slate-500"}`}>
                 <svg 
