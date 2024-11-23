@@ -1,11 +1,17 @@
-import { sammyverse, nikelp, profile, xomania } from "../assets/images"
+import { sammyverse, nikelp, sahil, xomania, smashcash } from "../assets/project-images"
 
 export const projects = [
   {
-    imgURL: profile,
+    imgURL: sahil,
     title: "Sahil.dev",
     description: "My portfolio website, built using React, Tailwind CSS, and Vite. It showcases my work, skills, and a little about me",
     link: "https://github.com/sxhilx/sahil.dev"
+  },
+  {
+    imgURL: smashcash,
+    title: "Smash Cash",
+    description: "SmashCash is a simple, fast currency converter I built using React, Tailwind CSS, and a real-time API. It reflects my skills integrating APIs.",
+    link: "https://smashcash.vercel.app"
   },
   {
     imgURL: sammyverse,
