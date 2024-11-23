@@ -3,6 +3,7 @@ import ProjectsCard from '../components/ProjectsCard'
 import ThanksCrad from '../components/ThanksCrad'
 import FavouriteFiction from '../components/FavouriteFiction'
 import { projects } from '../constants'
+import FactsCard from '../components/FactsCard'
 
 const Projects = () => {
   return (
@@ -10,19 +11,24 @@ const Projects = () => {
         <div className="md:w-[70%] md:h-full ">
             <div className="p-6">
                 <h2 className="text-4xl font-poppins font-semibold my-8 mx-4">Projects I've Worked On</h2>
-                <div className="md:m-4 flex flex-col md:flex-row flex-wrap gap-8">
-                <div className="lg:flex lg:flex-row gap-5">
-                {projects.slice(0,2).map((project)=> (
-                    <ProjectsCard key={project.title} {...project} />
-                ))}
-                </div>
-                </div>
+              <div className="md:m-4 gap-8">
+                
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    {projects.map((project)=> (
+                        <ProjectsCard key={project.title} {...project} />
+                    ))}
+                  
+                </div>                
+              </div>
             </div>
         </div>
         <div className="md:w-[30%] md:h-full md:mt-[8%] md:mr-3">
         <aside >
           <div className="my-8">
-            <ThanksCrad/>
+            <ThanksCrad label={"View my Resume"} path={"/resume"}/>
+          </div>
+          <div className='my-8'>
+            <FactsCard/>
           </div>
           <div className="my-8">
             <FavouriteFiction />

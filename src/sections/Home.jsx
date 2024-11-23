@@ -20,7 +20,7 @@ export default function Home(){
               <h4 className="font-poppins font-semibold text-3xl">Hi, I'm
                 <span className="text-blue-500 "> Sahil Jada</span>
               </h4>  
-              <h1 className="font-poppins font-semibold text-4xl">I'm a <span className="line-through">Future</span> <span className="text-teal-600">Full-Stack </span> Dev
+              <h1 className="font-poppins font-semibold text-4xl">A <span className="line-through">Future</span> <span className="text-teal-600">Full-Stack </span> Dev
               </h1>
             </div>
           </div>
@@ -53,27 +53,31 @@ export default function Home(){
           
           <div className="p-4">
             <h2 className="text-xl font-poppins font-medium m-4">Short Bio</h2>
-            <p className="text-lg font-poppins font-normal m-4">Hi, I'm Sahil, My friends like to call me Sammy (no idea why), Im currently based in 
+            <p className="text-lg font-poppins font-normal m-4">Hi, I'm Sahil, My friends like to call me Sammy (no idea why), I'm currently based in 
               <a href="https://maps.app.goo.gl/LqTw9bkeTMbtnw799">
-              <span className="text-teal-600"> South Africa  </span>
+              <span className="text-teal-500 hover:text-teal-600"> South Africa</span>
               </a>              
-              studying BSc Information technology at 
-              <span className="text-teal-600">
-                <a href="https://www.richfield.ac.za/"> Richfield Institue of technology.</a>
-              </span> I personally love coding, and nothing can stop me from learning more and more about the tech world and developing what I love. I'm a big fan of open-source projects, so everything I build, I share on 
+              , studying a BSc in Information technology at 
+              <span className="text-teal-500 hover:text-teal-600">
+                <a href="https://www.richfield.ac.za/"> Richfield Institue of technology</a>
+              </span>. I personally love coding, and nothing can stop me from learning more and more about the tech world and developing what I love. I'm a big fan of open-source projects, so everything I build, I share on 
               <a href="https://github.com/sxhilx">
-              <span className="text-teal-600"> GitHub.</span>
+              <span className="text-teal-500 hover:text-teal-600"> GitHub.</span>
               </a>
             </p>
           </div>
           <div className="  p-4">
             <h2 className="text-xl font-poppins font-medium m-4">Latest Projects</h2>
-            <div className="md:m-4 flex flex-col md:flex-row flex-wrap gap-8">
-              <div className="lg:flex lg:flex-row gap-5">
-              {projects.slice(0,2).map((project)=> (
-                <ProjectsCard key={project.title} {...project} />
-              ))}
-              </div>
+            
+            <div className="md:m-4 gap-8">
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                  {projects.slice(0, 2).map((project)=> (
+                      <ProjectsCard key={project.title} {...project} />
+                  ))}
+                
+              </div>   
+          
             </div>
           </div>
           <div className="p-4">
@@ -81,9 +85,9 @@ export default function Home(){
             <p className="text-lg font-poppins font-normal m-4">
               Shoot me an  
               <a href="mailto:jadasahil06@gmail.com">
-                <span className="text-teal-600"> email
+                <span className="text-teal-500 hover:text-teal-600"> email
                 </span>
-              </a>  or DM me on my socials. Let's get to know each other! I'd love to collaborate and chat about anything tech-related. Whether it's brainstorming ideas, working on exciting projects, or just sharing insights, I'm always up for a good conversation. Don't hesitate to reach out—I can't wait to connect with you!
+              </a>  or <a href="https://x.com/sxhilxx"><span className="text-teal-500 hover:text-teal-600"> DM </span></a> me on my socials. Let's get to know each other! I'd love to collaborate and chat about anything tech-related. Whether it's brainstorming ideas, working on exciting projects, or just sharing insights, I'm always up for a good conversation. Don't hesitate to reach out—I can't wait to connect with you!
             </p>
           </div>
           
@@ -103,7 +107,7 @@ export default function Home(){
           </div>
 
           <div className="my-8">
-            <ThanksCrad/>
+            <ThanksCrad label={"View my Projects"} path={'/projects'}/>
           </div>
           
         </aside>

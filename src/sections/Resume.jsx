@@ -22,7 +22,9 @@ const Resume = () => {
                             <label htmlFor="time" className="text-sm font-extralight text-slate-500">2023 - PRESENT</label>
                             <h2 className='font-semibold text-2xl'>BSc in Information Technology</h2>
                             
-                            <h3 className='font-normal text-md'>Richfield Graduate Institute of Technology</h3>
+                            <a href="https://richfield.ac.za">
+                                <h3 className='font-normal text-md hover:text-slate-500'>Richfield Graduate Institute of Technology</h3>
+                            </a>
 
                             <p className='font-poppins font-extralight text-md mt-2'>
                             Gained comprehensive knowledge in IT, focusing on software development, data structures, networking, and systems analysis. Developed problem-solving and analytical skills while working on projects. 
@@ -38,8 +40,9 @@ const Resume = () => {
                             <label htmlFor="time" className="text-sm font-extralight text-slate-500">2019 - 2022</label>
                             <h2 className='font-semibold text-2xl'>Bachelor's Pass</h2>
                             
-                            <h3 className='font-normal text-md'>Centenary Secondary School </h3>
-
+                            <a href="">
+                                <h3 className='font-normal text-md hover:text-slate-500'>Centenary Secondary School </h3>
+                            </a>
                             <p className='font-poppins font-extralight text-md mt-2'>
                                 Completed high school with a Bachelor's Pass in 2022, choosing Physical Science, Life Science, and Accounting as my majors.
                             </p>
@@ -60,7 +63,9 @@ const Resume = () => {
                             <label htmlFor="time" className="text-sm font-extralight text-slate-500">2024</label>
                             <h2 className='font-semibold text-2xl'>Freelance Web Developer</h2>
                             
-                            <h3 className='font-normal text-md'>do4you</h3>
+                            <a href="https://do4you.co.za">
+                            <h3 className='font-normal text-md hover:text-slate-500'>do4you</h3>
+                            </a>
 
                             <p className='font-poppins font-extralight text-md mt-2'>
                             Developed a custom, responsive landing page to promote the business's services and enhance its online presence. Utilized HTML, Tailwindcss, and JavaScript to create a user-friendly design and seamless functionality. Worked closely with the client to understand business goals, ensuring the page met their needs and expectations. Implemented SEO best practices to improve page visibility and drive traffic.

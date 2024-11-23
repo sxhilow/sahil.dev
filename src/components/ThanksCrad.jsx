@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const ThanksCrad = () => {
+const ThanksCrad = ({label, path}) => {
   return (
     <div className=" mx-7 rounded-lg border border-slate-200 rotate-[-1deg] dark:border-slate-800  dark:bg-gradient-to-br from-slate-800 to-slate-900 flex-wrap overflow-auto p-1.5">
             <div className='flex justify-start items-center'>
@@ -13,8 +13,8 @@ const ThanksCrad = () => {
 
             <p className="font-poppins font-light m-2 text-sm">Feel free to reach out or explore more!</p>
             
-            <Link to='/projects'>
-                <p className="font-poppins m-2 font-normal underline text-teal-600 hover:text-teal-700">View My Projects</p>
+            <Link to={path}>
+                <p className="font-poppins m-2 font-normal underline text-teal-600 hover:text-teal-700">{label}</p>
             </Link>
 
             <a href="mailto:jadasahil06@gmail.com">

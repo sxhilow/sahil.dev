@@ -11,6 +11,7 @@ const ToolsCrad = () => {
                 <li className='p-1'> <span className='text-teal-600'> — </span>Github</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>Linux</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>Figma</li>
+                <li className='p-1'> <span className='text-teal-600'> — </span>Cisco Packet Tracer</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>AWS</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>VS Code</li>
                               
