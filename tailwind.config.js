@@ -27,9 +27,13 @@ export default {
           // Only modify the background color for dark mode
           "base-100": "#0f172a", // Dark background color
         },
+        mylighttheme: {
+          "base-200": "#fff"
+        }
       },
     ],
     darkTheme: "mydarktheme", // Use this custom dark theme
+    lightTheme: "mylighttheme",
   },
 }
 
