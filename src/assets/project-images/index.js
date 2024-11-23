@@ -3,11 +3,15 @@ import nikelp from './nikelp.jpeg'
 import xomania from './xomania.jpeg'
 import smashcash from './smashcash.jpg'
 import sahil from './sahil.png'
+import listitup from './listitup.png'
+import passwordy from './passwordy.png'
 
 export{
   sammyverse,
   nikelp,
   xomania,
   smashcash,
-  sahil
+  sahil,
+  listitup,
+  passwordy
 }

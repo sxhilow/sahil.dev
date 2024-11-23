@@ -1,4 +1,4 @@
-import { sammyverse, nikelp, sahil, xomania, smashcash } from "../assets/project-images"
+import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy } from "../assets/project-images"
 
 export const projects = [
   {
@@ -8,22 +8,34 @@ export const projects = [
     link: "https://github.com/sxhilx/sahil.dev"
   },
   {
-    imgURL: smashcash,
-    title: "Smash Cash",
-    description: "SmashCash is a simple, fast currency converter I built using React, Tailwind CSS, and a real-time API. It reflects my skills integrating APIs.",
-    link: "https://smashcash.vercel.app"
-  },
-  {
     imgURL: sammyverse,
     title: "SammyVerse",
     description: "Sammy Verse is a comprehensive social networking app developed using Tailwind CSS, PHP, and SQL databases.",
     link: "https://github.com/sxhilx/sammyverse"
   },
   {
+    imgURL: listitup,
+    title: "List-It-Up",
+    description: "List It Up is a sleek to-do list app crafted with React, Vite, and Tailwind CSS. It uses Context API and Local Storage to keep your tasks safe.",
+    link: "https://listitup.vercel.app"
+  },
+  {
+    imgURL: smashcash,
+    title: "Smash Cash",
+    description: "SmashCash is a simple, fast currency converter I built using React, Tailwind CSS, and a real-time API. It reflects my skills integrating APIs.",
+    link: "https://smashcash.vercel.app"
+  },
+  {
     imgURL: nikelp,
     title: "Nike Landing Page",
     description: "The Nike landing page is a sleek and responsive web application built using React, Tailwind CSS, and Vite.",
     link: "https://github.com/sxhilx/nike-landing-page"
+  },
+  {    
+    imgURL: passwordy,
+    title: "Passwordy",
+    description: "Passwordy is a simple yet powerful password generator built with React. It lets you customize your passwords by choosing the length and whether to include numbers or special characters.",
+    link: "https://passwordy.vercel.app"    
   },
   {
     imgURL: xomania,
