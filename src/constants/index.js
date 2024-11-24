@@ -29,7 +29,7 @@ export const projects = [
     imgURL: nikelp,
     title: "Nike Landing Page",
     description: "The Nike landing page is a sleek and responsive web application built using React, Tailwind CSS, and Vite.",
-    link: "https://github.com/sxhilx/nike-landing-page"
+    link: "https://github.com/sxhilx/nikelp"
   },
   {    
     imgURL: passwordy,
