@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+import daisyui from 'daisyui';
+
 export default {
   content: [
       "./index.html",
@@ -14,11 +16,10 @@ export default {
       backgroundImage: {
         'onepiece-image': 'url("/assets/images/onepiece.jpeg")',
       },
-      
     },
   },
   plugins: [
-    require('daisyui'),
+    daisyui,
   ],
   daisyui: {
     themes: [
@@ -36,4 +37,3 @@ export default {
     lightTheme: "mylighttheme",
   },
 }
-

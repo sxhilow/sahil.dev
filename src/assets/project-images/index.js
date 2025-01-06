@@ -5,6 +5,7 @@ import smashcash from './smashcash.jpg'
 import sahil from './sahil.png'
 import listitup from './listitup.png'
 import passwordy from './passwordy.png'
+import blogster from './blogster.png'
 
 export{
   sammyverse,
@@ -13,5 +14,6 @@ export{
   smashcash,
   sahil,
   listitup,
-  passwordy
+  passwordy,
+  blogster
 }
