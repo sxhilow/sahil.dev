@@ -1,6 +1,12 @@
-import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy } from "../assets/project-images"
+import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy, blogster } from "../assets/project-images"
 
 export const projects = [
+  {
+    imgURL: blogster,
+    title: "Blogster",
+    description: "Blogster is a desktop blog app I built using ReactJS, with Appwrite powering the backend. In this project, my primary focus was on building a robust backend and implementing the login system.",
+    link: "https://github.com/sxhilx/blogster"
+  },
   {
     imgURL: sahil,
     title: "Sahil.dev",
