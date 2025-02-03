@@ -1,4 +1,4 @@
-import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy, blogster } from "../assets/project-images"
+import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy, blogster, amazonClone } from "../assets/project-images"
 
 export const projects = [
   {
@@ -36,6 +36,12 @@ export const projects = [
     title: "Nike Landing Page",
     description: "The Nike landing page is a sleek and responsive web application built using React, Tailwind CSS, and Vite.",
     link: "https://github.com/sxhilx/nikelp"
+  },
+  {
+    imgURL: amazonClone,
+    title: "Amazon Desktop Clone",
+    description: "This project is a front-end clone of Amazon, built with React, Tailwind CSS, and Redux for state management (Not Responsive ATM!).",
+    link: "https://github.com/sxhilx/amazon-clone"
   },
   {    
     imgURL: passwordy,

@@ -1,6 +1,7 @@
 import sammyverse from './sammyverse.png'
 import nikelp from './nikelp.jpeg'
 import xomania from './xomania.jpeg'
+import amazonClone from './amazon-logo.png'
 import smashcash from './smashcash.jpg'
 import sahil from './sahil.png'
 import listitup from './listitup.png'
@@ -11,6 +12,7 @@ export{
   sammyverse,
   nikelp,
   xomania,
+  amazonClone,
   smashcash,
   sahil,
   listitup,
