@@ -30,7 +30,13 @@ const QuoteCard = () => {
 export default QuoteCard
 
 export const quote = async () => {
-    const response = await fetch("https://programming-quotesapi.vercel.app/api/random")
-
-    return response.json();
+    return await fetch("https://programming-quotesapi.vercel.app/api/random")
+    .then((response) => response.json())
+    .catch(() => (
+        {
+        quote:"Sorry, Quote Unavailable ATM!", 
+        author:"system"
+        }
+    ))
+    
 }

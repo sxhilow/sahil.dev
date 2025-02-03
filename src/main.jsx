@@ -24,7 +24,7 @@ const router = createBrowserRouter(
       <Route 
        path='/' 
        element={<Home/>}
-       loader={quote}
+       loader={quote || null}
       />
       <Route 
        path='/projects' 
