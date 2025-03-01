@@ -20,7 +20,7 @@ export default function Home(){
               <h4 className="font-poppins font-semibold text-3xl">Hi, I'm
                 <span className="text-blue-500 "> Sahil Jada</span>
               </h4>  
-              <h1 className="font-poppins font-semibold text-4xl">A <span className="line-through">Future</span> <span className="text-teal-600">Full-Stack </span> Dev
+              <h1 className="font-poppins font-semibold text-4xl">A <span className="text-teal-600">Full-Stack </span> Dev
               </h1>
             </div>
           </div>
