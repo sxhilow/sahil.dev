@@ -7,6 +7,7 @@ import sahil from './sahil.png'
 import listitup from './listitup.png'
 import passwordy from './passwordy.png'
 import blogster from './blogster.png'
+import jobsvault from './jobsvault.png'
 
 export{
   sammyverse,
@@ -17,5 +18,6 @@ export{
   sahil,
   listitup,
   passwordy,
-  blogster
+  blogster,
+  jobsvault
 }

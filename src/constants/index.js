@@ -1,6 +1,12 @@
-import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy, blogster, amazonClone } from "../assets/project-images"
+import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy, blogster, amazonClone, jobsvault } from "../assets/project-images"
 
 export const projects = [
+  {
+    imgURL: jobsvault,
+    title: "JobsVault",
+    description: "A MERN stack application to track job applications. Manage job statuses, organize applications. Built with React (Vite), Tailwind CSS, DaisyUI, Node.js, Express, MongoDB Atlas, and JWT Authentication.",
+    link: "https://github.com/sxhilx/jobsvault"
+  },
   {
     imgURL: blogster,
     title: "Blogster",

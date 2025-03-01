@@ -10,11 +10,13 @@ const SkillsCard = () => {
                 <li className='p-1'> <span className='text-teal-600'> — </span>Python</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>C++</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>Javascript</li>
+                <li className='p-1'> <span className='text-teal-600'> — </span>Node.js</li>
+                <li className='p-1'> <span className='text-teal-600'> — </span>Express.js</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>React</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>Tailwindcss</li>
+                <li className='p-1'> <span className='text-teal-600'> — </span>MongoDB</li>
                 <li className='p-1'> <span className='text-teal-600'> — </span>SQL</li>
-                <li className='p-1'> <span className='text-teal-600'> — </span>UI/UX</li>
-                <li className='p-1'> <span className='text-teal-600'> — </span>Product Designer</li>                
+                <li className='p-1'> <span className='text-teal-600'> — </span>UI/UX</li>                
             </ul>
         </div>
     </div>
