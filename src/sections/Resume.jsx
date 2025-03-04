@@ -60,7 +60,7 @@ const Resume = () => {
                             <img src={do4you} alt="do4you" className='rounded-full' />
                         </div>
                         <div className='ml-[90px]'>
-                            <label htmlFor="time" className="text-sm font-extralight text-slate-500">2024</label>
+                            <label htmlFor="time" className="text-sm font-extralight text-slate-500">OCT 2024 - PRESENT</label>
                             <h2 className='font-semibold text-2xl'>Freelance Web Developer</h2>
                             
                             <a href="https://do4you.co.za">
@@ -68,7 +68,7 @@ const Resume = () => {
                             </a>
 
                             <p className='font-poppins font-extralight text-md mt-2'>
-                            Developed a custom, responsive landing page to promote the business's services and enhance its online presence. Utilized HTML, Tailwindcss, and JavaScript to create a user-friendly design and seamless functionality. Worked closely with the client to understand business goals, ensuring the page met their needs and expectations. Implemented SEO best practices to improve page visibility and drive traffic.
+                            Developed a custom, responsive landing page for do4you to promote its services and enhance its online presence. Built using React, and Tailwind CSS, ensuring a modern, fast, and user-friendly experience. Collaborated closely with the client to align the design with business goals and expectations. Optimized for SEO and performance to improve visibility and drive engagement.
                             </p>
                         </div>
                     </li>
