@@ -8,6 +8,8 @@ import listitup from './listitup.png'
 import passwordy from './passwordy.png'
 import blogster from './blogster.png'
 import jobsvault from './jobsvault.png'
+import gainshub from "./gainshub.png"
+import crewmate from "./crewmate.png"
 
 export{
   sammyverse,
@@ -19,5 +21,7 @@ export{
   listitup,
   passwordy,
   blogster,
-  jobsvault
+  jobsvault,
+  gainshub,
+  crewmate
 }

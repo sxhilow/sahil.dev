@@ -61,15 +61,15 @@ const Resume = () => {
                         </div>
                         <div className='ml-[90px]'>
                             <label htmlFor="time" className="text-sm font-extralight text-slate-500">OCT 2024 - PRESENT</label>
-                            <h2 className='font-semibold text-2xl'>Freelance Web Developer</h2>
-                            
-                            <a href="https://do4you.co.za">
-                            <h3 className='font-normal text-md hover:text-slate-500'>do4you</h3>
-                            </a>
+                            <h2 className='font-semibold text-2xl'>Web Developer</h2>
 
                             <p className='font-poppins font-extralight text-md mt-2'>
-                            Developed a custom, responsive landing page for do4you to promote its services and enhance its online presence. Built using React, and Tailwind CSS, ensuring a modern, fast, and user-friendly experience. Collaborated closely with the client to align the design with business goals and expectations. Optimized for SEO and performance to improve visibility and drive engagement.
+                                Designed and developed responsive landing pages and websites for multiple clients, including <span className="font-medium">do4you</span> and <span className="font-medium">Timo Rides</span>.  
+                                Built with <span className="font-medium">Astro, React</span> and <span className="font-medium">Tailwind CSS</span> to ensure fast, modern, and user-friendly experiences.  
+                                Collaborated directly with clients to align design and functionality with business goals.  
+                                Focused on <span className="font-medium">SEO optimization</span> and <span className="font-medium">performance</span> to improve visibility and engagement.
                             </p>
+
                         </div>
                     </li>
                     <li className='flex flex-row gap-8 font-poppins mt-8'>
@@ -83,7 +83,9 @@ const Resume = () => {
                             <h3 className='font-normal text-md'>Ceiling Boards</h3>
 
                             <p className='font-poppins font-extralight text-md mt-2'>
-                                Assisted with troubleshooting and repairing printer issues, ensuring smooth daily operations.Set up a work requirement system to improve efficiency in processing customer orders and inventory tracking. Provided basic tech support, ensuring that all devices were connected and functioning properly for staff use.
+                                Supported day-to-day technical operations by troubleshooting and resolving hardware and printer issues, minimizing workflow disruptions.  
+                                Designed and implemented a simple work requirement system to streamline order processing and inventory tracking.  
+                                Provided on-site IT support to ensure all devices and networks were fully operational, improving overall team efficiency.
                             </p>
                         </div>
                     </li>

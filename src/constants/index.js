@@ -1,16 +1,28 @@
-import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy, blogster, amazonClone, jobsvault } from "../assets/project-images"
+import { sammyverse, nikelp, sahil, xomania, smashcash, listitup, passwordy, blogster, amazonClone, jobsvault, gainshub, crewmate } from "../assets/project-images"
 
 export const projects = [
   {
+    imgURL: crewmate,
+    title: "CrewMate",
+    description: "Crewmate is a Hackathon winning application that was built to help Richfield students connect, collaborate, and build projects together.",
+    link: "https://github.com/sxhilx/crewmate"
+  },
+  {
+    imgURL: gainshub,
+    title: "GainsHUb",
+    description: "Gainshub is a workout tracker. It allows you too log in your daily workouts, look at your progress and keep yourself motivated.",
+    link: "https://github.com/sxhilx/gainshub"
+  },
+  {
     imgURL: jobsvault,
     title: "JobsVault",
-    description: "A MERN stack application to track job applications. Manage job statuses, organize applications. Built with React (Vite), Tailwind CSS, DaisyUI, Node.js, Express, MongoDB Atlas, and JWT Authentication.",
+    description: "A MERN stack application to track job applications. Manage job statuses, organize applications.",
     link: "https://github.com/sxhilx/jobsvault"
   },
   {
     imgURL: blogster,
     title: "Blogster",
-    description: "Blogster is a desktop blog app I built using ReactJS, with Appwrite powering the backend. It was a great learning experience, helping me dive deep into ReactJS, state management, and BaaS.",
+    description: "Blogster is a desktop blog app I built using ReactJS, with Appwrite powering the backend.",
     link: "https://github.com/sxhilx/blogster"
   },
   {
